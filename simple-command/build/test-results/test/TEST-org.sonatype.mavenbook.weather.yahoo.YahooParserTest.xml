@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-28T11:15:57" hostname="LENOVO" time="0.165">
+  <properties/>
+  <testcase name="testParser" classname="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" time="0.165"/>
+  <system-out><![CDATA[0    INFO  YahooParser  - Creating XML Reader
+89   INFO  YahooParser  - Parsing XML Response
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

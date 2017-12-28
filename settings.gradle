@@ -1,0 +1,12 @@
+rootProject.name = 'simple-parent'
+include ':simple-command'
+include ':simple-model'
+include ':simple-weather'
+include ':simple-persist'
+include ':simple-webapp'
+
+project(':simple-command').projectDir = "$rootDir/simple-command" as File
+project(':simple-model').projectDir = "$rootDir/simple-model" as File
+project(':simple-weather').projectDir = "$rootDir/simple-weather" as File
+project(':simple-persist').projectDir = "$rootDir/simple-persist" as File
+project(':simple-webapp').projectDir = "$rootDir/simple-webapp" as File

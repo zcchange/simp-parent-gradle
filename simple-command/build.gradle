@@ -1,0 +1,9 @@
+
+description = 'Multi-Spring Chapter Simple Command Line Tool'
+dependencies {
+  compile project(':simple-weather')
+  compile project(':simple-persist')
+    compile group: 'org.springframework', name: 'spring', version:'2.0.7'
+    compile group: 'org.apache.velocity', name: 'velocity', version:'1.5'
+    compile group: 'hsqldb', name: 'hsqldb', version:'1.8.0.7'
+}

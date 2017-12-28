@@ -1,0 +1,8 @@
+
+description = 'Multi-Spring Chapter Simple Object Model'
+dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-annotations', version:'3.3.0.ga'
+    compile(group: 'org.hibernate', name: 'hibernate', version:'3.2.5.ga') {
+exclude(module: 'jta')
+    }
+}
